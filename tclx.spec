@@ -20,7 +20,7 @@ Name:           tclx
 BuildRequires:  autoconf
 BuildRequires:  gcc
 BuildRequires:  tcl-devel
-Version:        8.6.0_git20190131
+Version:        8.6.0_git20190301
 Release:        0
 Summary:        TclX - Extended Tcl
 License:        SUSE-Permissive and BSD-3-Clause

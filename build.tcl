@@ -1,14 +1,14 @@
 #!/usr/bin/tclsh
 
 set arch "x86_64"
-set base "tclx8.6.0_git20190131"
+set base "tclx8.6.0_git20190301"
 
 set var2 [list git clone https://github.com/flightaware/tclx.git $base]
 exec >@stdout 2>@stderr {*}$var2
 
 cd $base
 
-set var2 [list git checkout 30f4884afe5ac58b885d0ffa9246a9a54e8ce6af]
+set var2 [list git checkout 0b870eea8d8121f370cceab246b535ea1026a262]
 exec >@stdout 2>@stderr {*}$var2
 
 set var2 [list git reset --hard]
