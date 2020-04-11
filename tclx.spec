@@ -64,7 +64,7 @@ export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 make
 
 %install
-make install DESTDIR=%buildroot pkglibdir=%tcl_archdir/%{name}8.4.4
+make install DESTDIR=%buildroot pkglibdir=%tcl_archdir/%{name}8.6
 
 %post -p /sbin/ldconfig
 
