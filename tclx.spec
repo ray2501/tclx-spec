@@ -20,7 +20,7 @@ Name:           tclx
 BuildRequires:  autoconf
 BuildRequires:  gcc
 BuildRequires:  tcl-devel
-Version:        8.6.0_git20190301
+Version:        8.4.4
 Release:        0
 Summary:        TclX - Extended Tcl
 License:        SUSE-Permissive and BSD-3-Clause
@@ -64,7 +64,7 @@ export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 make
 
 %install
-make install DESTDIR=%buildroot pkglibdir=%tcl_archdir/%{name}8.6
+make install DESTDIR=%buildroot pkglibdir=%tcl_archdir/%{name}8.4.4
 
 %post -p /sbin/ldconfig
 
